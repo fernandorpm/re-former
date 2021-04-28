@@ -1,0 +1,8 @@
+<h1>Displaying <%= @user.username %> data</h1>
+
+<h3><%= @user.email %></h3>
+<h3><%= @user.password %></h3>
+
+<br>
+
+<%= link_to "Edit User", edit_user_path(@user) %>
