@@ -1,25 +1,3 @@
 <h1>Edit User</h1>
 
-<%= form_with model: @user, method: :patch do |form| %>
-  <% @user.errors.full_messages_for(:username).each do |message| %>
-    <div><%= message %></div>
-  <% end %>
-  <% @user.errors.full_messages_for(:email).each do |message| %>
-    <div><%= message %></div>
-  <% end %>
-  <% @user.errors.full_messages_for(:password).each do |message| %>
-    <div><%= message %></div>
-  <% end %>
-  <br>
-
-  <%= form.label :username, "Username:" %><br>
-  <%= form.text_field :username, placeholder: "Your pretty name here" %><br><br>
-
-  <%= form.label :email, "Email:" %><br>
-  <%= form.text_field :email, type: "email" %><br><br>
-
-  <%= form.label :password, "Password:" %><br>
-  <%= form.text_field :password, type: "password" %><br><br>
-
-  <%= form.submit "Update" %>
-<% end %>
+<%= render "form", user: @user %>

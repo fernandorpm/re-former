@@ -30,6 +30,8 @@ This project contains models, controllers and views for the `User`, including in
 - Go to the cloned directory:
 `cd re-former`
 
+- Run `yarn install` to install the project dependencies
+
 - Run `rails db:migrate` to create the database
 
 - Run `rails s` and go to `http://127.0.0.1:3000/users/`.
