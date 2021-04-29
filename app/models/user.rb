@@ -1,5 +1,4 @@
 class User < ApplicationRecord
-
   validates :username, :password, :email, presence: true
   validates :username, length: { minimum: 4 }
   validates :email, format: { with: URI::MailTo::EMAIL_REGEXP }
