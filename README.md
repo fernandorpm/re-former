@@ -36,13 +36,7 @@ This project contains models, controllers and views for the `User`, including in
 
 - For further knowledge on these topics, check [RoR's Documentation](https://guides.rubyonrails.org/getting_started.html).
 
-## Authors
-
-👤 **João Vítor Montanholi Nunes** 
-
-- GitHub: [jmontanholi](https://github.com/jmontanholi) 
-- Twitter: [MontanholiNunes](https://twitter.com/MontanholiNunes) 
-- LinkedIn: [Joao vitor montanholi](https://www.linkedin.com/in/joaovitormontanholi/) 
+## Author
 
 👤 **Fernando R P Marques**
 
